@@ -14,7 +14,7 @@ import 'package:untitled/shared/bloc_observer.dart';
 void main()
 {
   runApp(myapp());
-  Bloc.observer = MyBlocObserver();
+  //Bloc.observer = MyBlocObserver();
 }
 
 class myapp extends StatelessWidget
@@ -24,7 +24,7 @@ class myapp extends StatelessWidget
   {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home : TodoScreen(),
+      home : Calculator(),
     );
   }
 
